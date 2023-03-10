@@ -1,1 +1,1 @@
-Integration Testing by Rutu Suthar
+Integration Testing Lab by Rutu Suthar
