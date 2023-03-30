@@ -43,10 +43,11 @@ add_to_cart_button.click()
 #Waiting for the cart to update
 time.sleep(5)
 
+
 #Clicking on no thanks button
-# no_thanks_button= driver.find_element("xpath","/html/body/div[5]/div[3]/div[1]/div/div/div[2]/div[2]/div/div/div[3]/div/span[2]/span/input")
-# no_thanks_button.click()
-# time.sleep(5)
+no_thanks_button= driver.find_element("xpath","/html/body/div[5]/div[3]/div[1]/div/div/div[2]/div[2]/div/div/div[3]/div/span[2]/span/input")
+no_thanks_button.click()
+time.sleep(5)
 
 # Verifying that the laptop has been added to the cart
 cart_count = driver.find_element("id","nav-cart-count")
